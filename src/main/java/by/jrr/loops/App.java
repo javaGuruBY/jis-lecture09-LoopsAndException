@@ -1,7 +1,10 @@
 package by.jrr.loops;
 
-public class App {
-    public static void main(String[] args) {
+import by.jrr.loops.exceptions.ExceptionsProvider;
 
+public class App {
+    public static void main(String[] args){
+        ExceptionsProvider exceptionsProvider = new ExceptionsProvider();
+//        exceptionsProvider.syntaxTrow();
     }
 }
