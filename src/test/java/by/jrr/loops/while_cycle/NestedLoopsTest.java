@@ -25,7 +25,7 @@ public class NestedLoopsTest {
     }
 
     @Test
-    public void findFirstByNameLamaconda() {
+    public void findFirstByNameAnton() {
         nestedLoops.findFirstByNameAnton();
     }
 }
