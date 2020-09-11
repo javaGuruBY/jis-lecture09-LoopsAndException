@@ -50,4 +50,14 @@ public class ExceptionsTest {
             memoryKiller.append(memoryKiller.toString());
         }
     }
+
+    @Test(expected = InterruptedException.class)
+    public void t9() throws InterruptedException {
+        try{
+            throw new InterruptedException();
+        } finally {
+            System.out.println("prints anyway");
+        }
+    }
+
 }
